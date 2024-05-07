@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CL1'
+Slack : -0.291
+TNS   : -0.573
+
+Type  : Slow 1200mV 85C Model Setup 'CL2'
+Slack : -0.133
+TNS   : -0.261
+
+Type  : Slow 1200mV 85C Model Hold 'CL1'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CL2'
+Slack : 0.533
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'CL1'
+Slack : -1.208
+TNS   : -4.826
+
+Type  : Slow 1200mV 85C Model Removal 'CL1'
+Slack : 1.553
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CL2'
+Slack : -3.000
+TNS   : -20.844
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CL1'
+Slack : -3.000
+TNS   : -8.948
+
+Type  : Slow 1200mV 0C Model Setup 'CL1'
+Slack : -0.160
+TNS   : -0.309
+
+Type  : Slow 1200mV 0C Model Setup 'CL2'
+Slack : -0.021
+TNS   : -0.038
+
+Type  : Slow 1200mV 0C Model Hold 'CL1'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CL2'
+Slack : 0.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'CL1'
+Slack : -0.998
+TNS   : -3.987
+
+Type  : Slow 1200mV 0C Model Removal 'CL1'
+Slack : 1.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CL2'
+Slack : -3.000
+TNS   : -20.844
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CL1'
+Slack : -3.000
+TNS   : -8.948
+
+Type  : Fast 1200mV 0C Model Setup 'CL1'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CL2'
+Slack : 0.521
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CL1'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CL2'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CL1'
+Slack : 0.037
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CL1'
+Slack : 0.658
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CL2'
+Slack : -3.000
+TNS   : -16.476
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CL1'
+Slack : -3.000
+TNS   : -7.384
+
+------------------------------------------------------------

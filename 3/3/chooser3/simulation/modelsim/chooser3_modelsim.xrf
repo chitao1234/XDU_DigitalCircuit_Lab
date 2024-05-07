@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, E:/3/chooser3/chooser3.bdf
+source_file = 1, E:/3/chooser3/Waveform.vwf
+source_file = 1, E:/3/chooser3/db/chooser3.cbx.xml
+design_name = chooser3
+instance = comp, \Y~output\, Y~output, chooser3, 1
+instance = comp, \B~input\, B~input, chooser3, 1
+instance = comp, \A~input\, A~input, chooser3, 1
+instance = comp, \C~input\, C~input, chooser3, 1
+instance = comp, \inst3~0\, inst3~0, chooser3, 1

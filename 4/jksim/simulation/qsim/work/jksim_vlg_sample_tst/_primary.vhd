@@ -1,0 +1,12 @@
+library verilog;
+use verilog.vl_types.all;
+entity jksim_vlg_sample_tst is
+    port(
+        CL              : in     vl_logic;
+        CLRN            : in     vl_logic;
+        J               : in     vl_logic;
+        K               : in     vl_logic;
+        PRN             : in     vl_logic;
+        sampler_tx      : out    vl_logic
+    );
+end jksim_vlg_sample_tst;

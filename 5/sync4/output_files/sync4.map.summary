@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Apr 11 17:05:31 2024
+Quartus II 32-bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : sync4
+Top-level Entity Name : sync4
+Family : Cyclone IV E
+Total logic elements : 17
+    Total combinational functions : 7
+    Dedicated logic registers : 16
+Total registers : 16
+Total pins : 20
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

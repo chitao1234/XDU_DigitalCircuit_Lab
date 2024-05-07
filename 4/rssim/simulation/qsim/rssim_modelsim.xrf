@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, E:/4/rssim/rssim.bdf
+source_file = 1, E:/4/rssim/Waveform.vwf
+source_file = 1, E:/4/rssim/db/rssim.cbx.xml
+design_name = rssim
+instance = comp, \Q~output , Q~output, rssim, 1
+instance = comp, \PRN~input , PRN~input, rssim, 1
+instance = comp, \CLRN~input , CLRN~input, rssim, 1
+instance = comp, \inst~1 , inst~1, rssim, 1
+instance = comp, \CL~input , CL~input, rssim, 1
+instance = comp, \D~input , D~input, rssim, 1
+instance = comp, \inst~3 , inst~3, rssim, 1
+instance = comp, \inst~0 , inst~0, rssim, 1
+instance = comp, \inst~_emulated , inst~_emulated, rssim, 1
+instance = comp, \inst~2 , inst~2, rssim, 1

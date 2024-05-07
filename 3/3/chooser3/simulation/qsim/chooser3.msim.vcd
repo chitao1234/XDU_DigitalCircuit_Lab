@@ -1,0 +1,222 @@
+$comment
+	File created using the following command:
+		vcd file chooser3.msim.vcd -direction
+$end
+$date
+	Thu Mar 21 17:21:58 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module chooser3_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # C $end
+$var wire 1 $ Y $end
+$var wire 1 % sampler $end
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , Y~output_o $end
+$var wire 1 - B~input_o $end
+$var wire 1 . A~input_o $end
+$var wire 1 / C~input_o $end
+$var wire 1 0 inst3~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+10
+$end
+#40000
+1#
+1/
+0%
+#80000
+1"
+0#
+1-
+0/
+1%
+#120000
+1#
+1/
+0%
+00
+1,
+1$
+#160000
+1!
+0"
+0#
+1.
+0-
+0/
+1%
+10
+0,
+0$
+#200000
+1#
+1/
+0%
+00
+1,
+1$
+#240000
+1"
+0#
+1-
+0/
+1%
+#280000
+1#
+1/
+0%
+#320000
+0!
+0"
+0#
+0.
+0-
+0/
+1%
+10
+0,
+0$
+#360000
+1#
+1/
+0%
+#400000
+1"
+0#
+1-
+0/
+1%
+#440000
+1#
+1/
+0%
+00
+1,
+1$
+#480000
+1!
+0"
+0#
+1.
+0-
+0/
+1%
+10
+0,
+0$
+#520000
+1#
+1/
+0%
+00
+1,
+1$
+#560000
+1"
+0#
+1-
+0/
+1%
+#600000
+1#
+1/
+0%
+#640000
+0!
+0"
+0#
+0.
+0-
+0/
+1%
+10
+0,
+0$
+#680000
+1#
+1/
+0%
+#720000
+1"
+0#
+1-
+0/
+1%
+#760000
+1#
+1/
+0%
+00
+1,
+1$
+#800000
+1!
+0"
+0#
+1.
+0-
+0/
+1%
+10
+0,
+0$
+#840000
+1#
+1/
+0%
+00
+1,
+1$
+#880000
+1"
+0#
+1-
+0/
+1%
+#920000
+1#
+1/
+0%
+#960000
+0!
+0"
+0#
+0.
+0-
+0/
+1%
+10
+0,
+0$
+#1000000

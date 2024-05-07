@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, E:/4/jksim/jksim.bdf
+source_file = 1, E:/4/jksim/db/jksim.cbx.xml
+design_name = jksim
+instance = comp, \Q~output\, Q~output, jksim, 1
+instance = comp, \PRN~input\, PRN~input, jksim, 1
+instance = comp, \CLRN~input\, CLRN~input, jksim, 1
+instance = comp, \inst~1\, inst~1, jksim, 1
+instance = comp, \CL~input\, CL~input, jksim, 1
+instance = comp, \K~input\, K~input, jksim, 1
+instance = comp, \J~input\, J~input, jksim, 1
+instance = comp, \inst~3\, inst~3, jksim, 1
+instance = comp, \inst~0\, inst~0, jksim, 1
+instance = comp, \inst~_emulated\, inst~_emulated, jksim, 1
+instance = comp, \inst~2\, inst~2, jksim, 1

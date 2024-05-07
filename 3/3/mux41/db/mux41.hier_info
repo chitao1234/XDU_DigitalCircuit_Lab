@@ -1,0 +1,15 @@
+|mux41
+F <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst1.IN0
+A1 => inst3.IN0
+A1 => inst7.IN0
+En => inst.IN0
+D3 => inst1.IN2
+A0 => inst1.IN3
+A0 => inst4.IN0
+A0 => inst6.IN3
+D0 => inst5.IN2
+D2 => inst7.IN2
+D1 => inst6.IN2
+
+

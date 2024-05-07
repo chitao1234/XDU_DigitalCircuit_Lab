@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, E:/2/design24dec/design24dec.bdf
+source_file = 1, E:/2/design24dec/db/design24dec.cbx.xml
+design_name = design24dec
+instance = comp, \Y0~output\, Y0~output, design24dec, 1
+instance = comp, \Y3~output\, Y3~output, design24dec, 1
+instance = comp, \Y2~output\, Y2~output, design24dec, 1
+instance = comp, \Y1~output\, Y1~output, design24dec, 1
+instance = comp, \A1~input\, A1~input, design24dec, 1
+instance = comp, \Ee~input\, Ee~input, design24dec, 1
+instance = comp, \A0~input\, A0~input, design24dec, 1

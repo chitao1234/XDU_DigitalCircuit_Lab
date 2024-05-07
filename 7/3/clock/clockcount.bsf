@@ -1,0 +1,246 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 216 512)
+	(text "clockcount" (rect 5 0 66 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 432 25 444)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLR" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLR" (rect 21 27 44 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 43 44 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "SI" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "SI" (rect 21 75 31 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "MANUAL" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "MANUAL" (rect 21 59 72 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "MI" (rect 0 0 11 14)(font "Arial" (font_size 8)))
+		(text "MI" (rect 21 91 32 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "HI" (rect 0 0 10 14)(font "Arial" (font_size 8)))
+		(text "HI" (rect 21 107 31 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "SL0" (rect 0 0 22 14)(font "Arial" (font_size 8)))
+		(text "SL0" (rect 109 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(port
+		(pt 152 128)
+		(output)
+		(text "SL1" (rect 0 0 22 14)(font "Arial" (font_size 8)))
+		(text "SL1" (rect 109 123 131 137)(font "Arial" (font_size 8)))
+		(line (pt 152 128)(pt 136 128))
+	)
+	(port
+		(pt 152 224)
+		(output)
+		(text "SL2" (rect 0 0 22 14)(font "Arial" (font_size 8)))
+		(text "SL2" (rect 109 219 131 233)(font "Arial" (font_size 8)))
+		(line (pt 152 224)(pt 136 224))
+	)
+	(port
+		(pt 152 320)
+		(output)
+		(text "SL3" (rect 0 0 22 14)(font "Arial" (font_size 8)))
+		(text "SL3" (rect 109 315 131 329)(font "Arial" (font_size 8)))
+		(line (pt 152 320)(pt 136 320))
+	)
+	(port
+		(pt 152 48)
+		(output)
+		(text "SH0" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "SH0" (rect 108 43 131 57)(font "Arial" (font_size 8)))
+		(line (pt 152 48)(pt 136 48))
+	)
+	(port
+		(pt 152 144)
+		(output)
+		(text "SH1" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "SH1" (rect 108 139 131 153)(font "Arial" (font_size 8)))
+		(line (pt 152 144)(pt 136 144))
+	)
+	(port
+		(pt 152 240)
+		(output)
+		(text "SH2" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "SH2" (rect 108 235 131 249)(font "Arial" (font_size 8)))
+		(line (pt 152 240)(pt 136 240))
+	)
+	(port
+		(pt 152 336)
+		(output)
+		(text "SH3" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "SH3" (rect 108 331 131 345)(font "Arial" (font_size 8)))
+		(line (pt 152 336)(pt 136 336))
+	)
+	(port
+		(pt 152 64)
+		(output)
+		(text "ML0" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "ML0" (rect 108 59 131 73)(font "Arial" (font_size 8)))
+		(line (pt 152 64)(pt 136 64))
+	)
+	(port
+		(pt 152 160)
+		(output)
+		(text "ML1" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "ML1" (rect 108 155 131 169)(font "Arial" (font_size 8)))
+		(line (pt 152 160)(pt 136 160))
+	)
+	(port
+		(pt 152 256)
+		(output)
+		(text "ML2" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "ML2" (rect 108 251 131 265)(font "Arial" (font_size 8)))
+		(line (pt 152 256)(pt 136 256))
+	)
+	(port
+		(pt 152 352)
+		(output)
+		(text "ML3" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "ML3" (rect 108 347 131 361)(font "Arial" (font_size 8)))
+		(line (pt 152 352)(pt 136 352))
+	)
+	(port
+		(pt 152 80)
+		(output)
+		(text "MH0" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "MH0" (rect 107 75 131 89)(font "Arial" (font_size 8)))
+		(line (pt 152 80)(pt 136 80))
+	)
+	(port
+		(pt 152 176)
+		(output)
+		(text "MH1" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "MH1" (rect 107 171 131 185)(font "Arial" (font_size 8)))
+		(line (pt 152 176)(pt 136 176))
+	)
+	(port
+		(pt 152 272)
+		(output)
+		(text "MH2" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "MH2" (rect 107 267 131 281)(font "Arial" (font_size 8)))
+		(line (pt 152 272)(pt 136 272))
+	)
+	(port
+		(pt 152 368)
+		(output)
+		(text "MH3" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "MH3" (rect 107 363 131 377)(font "Arial" (font_size 8)))
+		(line (pt 152 368)(pt 136 368))
+	)
+	(port
+		(pt 152 96)
+		(output)
+		(text "HL0" (rect 0 0 22 14)(font "Arial" (font_size 8)))
+		(text "HL0" (rect 109 91 131 105)(font "Arial" (font_size 8)))
+		(line (pt 152 96)(pt 136 96))
+	)
+	(port
+		(pt 152 192)
+		(output)
+		(text "HL1" (rect 0 0 22 14)(font "Arial" (font_size 8)))
+		(text "HL1" (rect 109 187 131 201)(font "Arial" (font_size 8)))
+		(line (pt 152 192)(pt 136 192))
+	)
+	(port
+		(pt 152 288)
+		(output)
+		(text "HL2" (rect 0 0 22 14)(font "Arial" (font_size 8)))
+		(text "HL2" (rect 109 283 131 297)(font "Arial" (font_size 8)))
+		(line (pt 152 288)(pt 136 288))
+	)
+	(port
+		(pt 152 384)
+		(output)
+		(text "HL3" (rect 0 0 22 14)(font "Arial" (font_size 8)))
+		(text "HL3" (rect 109 379 131 393)(font "Arial" (font_size 8)))
+		(line (pt 152 384)(pt 136 384))
+	)
+	(port
+		(pt 152 112)
+		(output)
+		(text "HH0" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "HH0" (rect 108 107 131 121)(font "Arial" (font_size 8)))
+		(line (pt 152 112)(pt 136 112))
+	)
+	(port
+		(pt 152 208)
+		(output)
+		(text "HH1" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "HH1" (rect 108 203 131 217)(font "Arial" (font_size 8)))
+		(line (pt 152 208)(pt 136 208))
+	)
+	(port
+		(pt 152 304)
+		(output)
+		(text "HH2" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "HH2" (rect 108 299 131 313)(font "Arial" (font_size 8)))
+		(line (pt 152 304)(pt 136 304))
+	)
+	(port
+		(pt 152 400)
+		(output)
+		(text "HH3" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "HH3" (rect 108 395 131 409)(font "Arial" (font_size 8)))
+		(line (pt 152 400)(pt 136 400))
+	)
+	(port
+		(pt 152 416)
+		(output)
+		(text "ALARM" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "ALARM" (rect 88 411 131 425)(font "Arial" (font_size 8)))
+		(line (pt 152 416)(pt 136 416))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 432))
+	)
+)

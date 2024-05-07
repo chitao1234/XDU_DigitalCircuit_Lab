@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, E:/4/rssim/rssim.bdf
+source_file = 1, E:/4/rssim/db/rssim.cbx.xml
+design_name = rssim
+instance = comp, \Q~output\, Q~output, rssim, 1
+instance = comp, \CL~input\, CL~input, rssim, 1
+instance = comp, \R~input\, R~input, rssim, 1
+instance = comp, \S~input\, S~input, rssim, 1
+instance = comp, \inst~0\, inst~0, rssim, 1

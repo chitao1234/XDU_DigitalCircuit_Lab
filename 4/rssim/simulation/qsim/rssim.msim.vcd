@@ -1,0 +1,183 @@
+$comment
+	File created using the following command:
+		vcd file rssim.msim.vcd -direction
+$end
+$date
+	Thu Mar 28 17:24:51 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module rssim_vlg_vec_tst $end
+$var reg 1 ! CL $end
+$var reg 1 " CLRN $end
+$var reg 1 # D $end
+$var reg 1 $ PRN $end
+$var wire 1 % Q $end
+$var wire 1 & sampler $end
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - Q~output_o $end
+$var wire 1 . PRN~input_o $end
+$var wire 1 / CLRN~input_o $end
+$var wire 1 0 inst~1_combout $end
+$var wire 1 1 CL~input_o $end
+$var wire 1 2 D~input_o $end
+$var wire 1 3 inst~3_combout $end
+$var wire 1 4 inst~0_combout $end
+$var wire 1 5 inst~_emulated_q $end
+$var wire 1 6 inst~2_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1$
+0%
+x&
+0'
+1(
+x)
+1*
+1+
+1,
+0-
+1.
+0/
+00
+01
+02
+03
+14
+05
+06
+$end
+#60000
+1!
+1"
+11
+1/
+0&
+04
+#120000
+0!
+01
+1&
+#180000
+1!
+11
+0&
+#200000
+1#
+12
+1&
+13
+#240000
+0!
+01
+0&
+#300000
+1!
+11
+1&
+15
+16
+1-
+1%
+#360000
+0!
+01
+0&
+#400000
+0#
+02
+1&
+03
+#420000
+1!
+11
+0&
+05
+06
+0-
+0%
+#480000
+0!
+01
+1&
+#520000
+0$
+0.
+0&
+14
+10
+16
+13
+1-
+1%
+#540000
+1!
+11
+1&
+#600000
+0!
+01
+0&
+#640000
+0"
+1$
+0/
+1.
+1&
+00
+06
+03
+0-
+0%
+#660000
+1!
+11
+0&
+#720000
+0!
+01
+1&
+#760000
+1"
+0$
+1/
+0.
+0&
+10
+16
+13
+1-
+1%
+#780000
+1!
+11
+1&
+#840000
+0!
+01
+0&
+#900000
+1!
+11
+1&
+#960000
+0!
+01
+0&
+#1000000
